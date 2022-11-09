@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,500&family=Poppins:wght@700&display=swap');
+
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%)
+    ;
+}
+.container{
+    display: flex;
+    margin: 5%;
+    align-items: center;
+    flex-direction: column;
+}
+.accesInfo{
+    background-color: hsl(213, 19%, 18%);
+    color: aliceblue;
+    text-align: left;
+    border-radius: 20px;
+    padding: 5%;
+    border-radius: 15px;
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+.accesInfo img {
+    background-color: rgb(80, 80, 80);
+    width: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.accesInfo h1 {
+    color: hsl(0, 0%, 100%);
+}
+.accesInfo p {
+    color:hsl(217, 12%, 63%);
+}
+.selections {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    border-radius: 20px;
+    background-color: rgb(80, 80, 80);
+    color: aliceblue;
+    border: none;
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    transition: 0.25s;
+}
+.btn:hover{
+    background-color: hsl(216, 12%, 54%);
+}
+.btn.clicked{
+    background-color: hsl(25, 97%, 53%);
+}
+.submit {
+    background-color: hsl(25, 97%, 53%);
+    color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 100%;
+    height: 30px;
+    transition: 0.25s;
+}
+.submit:hover{
+    background-color: aliceblue;
+    color: hsl(25, 97%, 53%);
+}
+
+.showInfo {
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    text-align: left;
+    border-radius: 20px;
+    padding: 5%;
+    border-radius: 15px;
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+.showInfo img {
+    width: 200px;
+}
+.ratingBox p {
+    background-color: rgb(80, 80, 80);
+    color: hsl(25, 97%, 53%);
+    border-radius: 21px;
+    height: 16px;
+    padding: 9px;
+}
+.infoText{
+    color:hsl(217, 12%, 63%);
+    margin: 10px;
+    text-align: center;
+}
+.hide {
+    display: none;
+}
